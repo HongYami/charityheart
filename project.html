@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>募資活動</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar-header">
+      <div class="wrapper">
+        <div class="logo">
+          <img src="./images/LOGO.png" alt="" width="300px" />
+        </div>
+        <nav class="navbar-nav">
+          <div class="dropdown">
+            <div class="activity">
+              <a href="project.html"
+                >公益活動<i class="fas fa-caret-down"></i
+              ></a>
+              <ul class="dropdown-content">
+                <li><a href="project.html">公益活動</a></li>
+              </ul>
+            </div>
+            <div class="invoice">
+              <a href="#">公益捐贈<i class="fas fa-caret-down"></i></a>
+              <ul class="dropdown-content">
+                <li><a href="#">物資捐贈</a></li>
+              </ul>
+            </div>
+            <a href="#">愛心餐廳</a>
+            <a href="#">捐血地圖</a>
+          </div>
+        </nav>
+        <div class="buttons">
+          <div class="login btn"><a href="#">會員登入</a></div>
+          <div class="register btn"><a href="#">註冊</a></div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- <div class="project-choose">
+        <aside class="container pt-6 mb-6">
+          <div class="d-flex lg:justify-content-end">
+            <ul>
+              <li>
+                <a class="weeknew" href="#">本週熱門</a>
+                <li>
+                  <a class="new" href="#">最新上線</a>
+                </li>
+                <li>
+                  <a class="end" href="#">即將結束</a>
+                </li>
+                <li>
+                  <a class="all" href="#">全部專案</a>
+                </li>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div> -->
+
+      <section class="projects">
+        <div class="container p-5">
+          <div class="d-flex row justify-content-center">
+            <!-- Card -->
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="activities.html"
+                    ><img
+                      src="./images/首圖1-1200x600.jpg"
+                      class="card-img-top"
+                      alt="大手拉小手—引導計畫｜引導高關懷孩子逆轉人生"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="activities.html"
+                      ><h6 class="card-title">
+                        大手拉小手—引導計畫｜引導高關懷孩子逆轉人生
+                      </h6></a
+                    >
+
+                    <p>
+                      提案人&nbsp<span class="org"
+                        >財團法人普仁青年關懷基金會</span
+                      >
+                    </p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">38,600</span>&nbsp/每月</p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 2%"
+                        aria-valuenow="2"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        2%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >長期集資</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖2-1200x600.png"
+                      class="card-img-top"
+                      alt="《全魯凱語山上教室》集資計畫｜讓扎根在石板屋裡的魯凱族，重新萌芽於山林之間"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        《全魯凱語山上教室》集資計畫｜讓扎根在石板屋裡的魯凱族，重新萌芽於山林之間
+                      </h6></a
+                    >
+
+                    <p>提案人&nbsp<span class="org">南島魯瑪社</span></p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">20,736</span></p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 14%"
+                        aria-valuenow="14"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        14%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數63天</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖3-1200x600.png"
+                      class="card-img-top"
+                      alt="《台灣超人》巡映集資計畫｜從環島到登月，牽起彼此一起飛上天際！"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        《台灣超人》巡映集資計畫｜從環島到登月，牽起彼此一起飛上天際！
+                      </h6></a
+                    >
+
+                    <p>
+                      提案人&nbsp<span class="org">社團法人美力台灣3D協會</span>
+                    </p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">31,846</span>&nbsp/每月</p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 7%"
+                        aria-valuenow="7"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        7%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數36</span
+                        >天
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖4-1200x600.jpg"
+                      class="card-img-top"
+                      alt="培力中心完備計畫｜善慧恩社會慈善基金會"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        培力中心完備計畫｜善慧恩社會慈善基金會
+                      </h6>
+                      <br
+                    /></a>
+
+                    <p>
+                      提案人&nbsp<span class="org">善慧恩社會慈善基金會</span>
+                    </p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">37,920</span>&nbsp/每月</p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 108%"
+                        aria-valuenow="108"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        108%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數5</span
+                        >天
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖5-1200x600.png"
+                      class="card-img-top"
+                      alt="為愛而吃！ 吃出你的健康，明日修理續食庇護聚落！"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        為愛而吃！ 吃出你的健康，明日修理續食庇護聚落！
+                      </h6></a
+                    >
+
+                    <p>提案人&nbsp<span class="org">明日餐桌</span></p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">1,841,851</span></p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 62%"
+                        aria-valuenow="62"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        62%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數29天</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖6-1200x600.png"
+                      class="card-img-top"
+                      alt="暖食人生 - 街友扶助計畫 ｜一碗暖心又暖胃的幫助"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        暖食人生 - 街友扶助計畫 ｜一碗暖心又暖胃的幫助
+                      </h6></a
+                    >
+
+                    <p>
+                      提案人&nbsp<span class="org"
+                        >社團法人台灣樂知公益慈善協會</span
+                      >
+                    </p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">187,800</span></p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 108%"
+                        aria-valuenow="108"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        108%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數1天</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖7-1200x600.jpg"
+                      class="card-img-top"
+                      alt="攜旺流浪狗教育助學資金"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">攜旺流浪狗教育助學資金</h6>
+                      <br
+                    /></a>
+
+                    <p>提案人&nbsp<span class="org">攜旺浪浪中途學校</span></p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">207,630</span></p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 75%"
+                        aria-valuenow="75"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        75%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數32天</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖8-1200x600.jpg"
+                      class="card-img-top"
+                      alt="社團法人台灣動物救援協會｜守護浪浪的避風港"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        社團法人台灣動物救援協會｜守護浪浪的避風港
+                      </h6></a
+                    >
+
+                    <p>
+                      提案人&nbsp<span class="org"
+                        >社團法人台灣動物救援協會</span
+                      >
+                    </p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">103,900</span></p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 2%"
+                        aria-valuenow="2"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        2%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數185天</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-center">
+              <div class="mb-3">
+                <div class="card" style="width: 21rem">
+                  <a class="pro1" href="#"
+                    ><img
+                      src="./images/首圖9-1200x600.jpg"
+                      class="card-img-top"
+                      alt="公民森林行動計畫｜種一棵能隨時陪伴你的樹！"
+                  /></a>
+                  <div class="card-body">
+                    <a class="pro1" href="#"
+                      ><h6 class="card-title">
+                        公民森林行動計畫｜種一棵能隨時陪伴你的樹！
+                      </h6></a
+                    >
+
+                    <p>提案人&nbsp<span class="org">好事交易所</span></p>
+                    <div class="pay">
+                      <p>NT$<span id="pay">200,705</span></p>
+                    </div>
+
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        style="width: 201%"
+                        aria-valuenow="201"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                      >
+                        201%
+                      </div>
+                    </div>
+                    <br />
+
+                    <div class="endtime">
+                      <p>
+                        剩餘時間&nbsp&nbsp<span
+                          id="endtime"
+                          style="font-weight: bold"
+                          >倒數93天</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="footer-content">
+        <div class="left-info co1-12 mb-5 mr-md-4">
+          <div>
+            <img src="./images/LOGO.png" alt="" width="60%" />
+          </div>
+          <br />
+          <h4>關於我們</h4>
+          <div class="aboutUs">
+            <p>
+              樂心公益平台是一個線上公益平台，協助公益單位募款、募資及提供各種公益相關的資訊，透過網路縮短公益團體與捐款人的距離；透過平台降低公益團體使用網路募款的門檻，並提供捐款人多元捐款方式，簡化捐款流程，讓募款及捐款都更有效率、更透明！
+            </p>
+          </div>
+
+          <h4>聯絡我們</h4>
+          <div class="phone">
+            <i class="fas fa-phone" style="color: #5f1985"> </i>
+            <span style="font-size: 18px"> 0800-770-885</span><br />
+            <i class="fas fa-envelope" style="color: #5f1985"> </i>
+            <span style="font-size: 18px"> Charity@gmail.com</span>
+          </div>
+          <br />
+          <br />
+          <div class="Copyright">
+            <p>Copyright© 2022 Charity Inc.</p>
+          </div>
+        </div>
+        <div class="right-form col-12 col-md-8">
+          <div class="footer-form">
+            <form>
+              <h4>樂心意見信箱</h4>
+              <p>您的鼓勵是我們持續前進的動力，有任何問題歡迎留言給我們。</p>
+              <div class="form-group">
+                <label for="name">姓 名</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="留下您的稱呼"
+                  title="name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="輸入您的email"
+                  title="email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">意見回饋</label>
+                <textarea
+                  class="form-control"
+                  placeholder="您鼓勵的話語或寶貴的建議"
+                  title="message"
+                  required
+                  id="message"
+                  style="height: 150px"
+                ></textarea>
+
+                <button type="submit" class="btn1 btn-primary">送 出</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- <script src="project.js"></script> -->
+  </body>
+</html>
